@@ -1,1 +1,1 @@
-# ICT-MedSeg code will be published soon
+# ICT-MedSeg code: for our paper "An Embarassingly Simple Consistency Regularization Method for Semisupervised Medical Image Segmentation"
