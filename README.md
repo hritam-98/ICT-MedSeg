@@ -5,6 +5,10 @@ This is the official implementation of the paper titled ["An Embarassingly Simpl
 
 <img src="/ICT-MedSeg-Overall.png" style="margin: 10px;">
 
+## Running the code
+
+`git clone https://github.com/hritam-98/ICT-MedSeg`
+
 ## Requirements
 Some important required packages include:
 * [Pytorch][torch_link] version >=0.4.1.
@@ -12,5 +16,31 @@ Some important required packages include:
 * Python == 3.6 
 * Efficientnet-Pytorch `pip install efficientnet_pytorch`
 * Some basic python packages such as Numpy, Scikit-image, SimpleITK, Scipy ......
+
+## Dataset
+Download the processed data and put the data in `../data/MMWHS` or `../data/ACDC`, please read and follow the [ACDC.md](https://github.com/hritam-98/ICT-MedSeg/blob/main/ACDC.md).
+
+## Training
+
+Next, to train the model on ACDC, run the following:
+
+`python main.py `
+
+## Testing
+
+`python test.py`
+
+# Citation
+If you find this repository useful, please cite our work as follows:
+```
+@misc{basak2022embarrassingly,
+      title={An Embarrassingly Simple Consistency Regularization Method for Semi-Supervised Medical Image Segmentation}, 
+      author={Hritam Basak and Rajarshi Bhattacharya and Rukhshanda Hussain and Agniv Chatterjee},
+      year={2022},
+      eprint={2202.00677},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
+}
+```
 
 
