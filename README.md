@@ -11,7 +11,7 @@ This is the official implementation of the paper titled ["An Embarassingly Simpl
 
 ## Requirements
 Some important required packages include:
-* [Pytorch][torch_link] version >=0.4.1.
+* [Pytorch][https://pytorch.org/] version >=0.4.1.
 * TensorBoardX
 * Python == 3.6 
 * Efficientnet-Pytorch `pip install efficientnet_pytorch`
@@ -27,6 +27,8 @@ Next, to train the model on ACDC, run the following:
 `python main.py `
 
 ## Testing
+
+To validate the model performance, run the following:
 
 `python test.py`
 
