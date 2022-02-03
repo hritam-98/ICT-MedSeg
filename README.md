@@ -3,7 +3,7 @@
 # Simple Consistency Regularization for SSL-based Medical Image Segmentation
 This is the official implementation of the paper titled ["An Embarassingly Simple Consistency Regularization Method for Semi-Supervised Medical Image Segmentation"](https://arxiv.org/abs/2202.00677) accepted in [IEEE International Symposium on Biomedical Imaging (ISBI), 2022](https://biomedicalimaging.org/2022/).
 
-<img src="/ICT-MedSeg-Overall.png" style="margin: 10px;">
+<img src="/ICT-MedSeg-Overall.png" style="margin: 8px;">
 
 ## Running the code
 
