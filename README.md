@@ -45,4 +45,13 @@ If you find this repository useful, please cite our work as follows:
 }
 ```
 
+# Acknowledgement
+Thanks [SSL4MIS](https://github.com/HiLab-git/SSL4MIS) for their wonderfurl work. Part of the code is borrowed from them. Please feel free to cite their work:
+```
+@misc{luo2020ssl4mis,
+  title={SSL4MIS},
+  author={Luo, Xiangde},
+  year={2020}
+}
 
+```
