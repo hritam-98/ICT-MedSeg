@@ -25,7 +25,7 @@ from dataloaders.dataset import (BaseDataSets, RandomGenerator,
                                  TwoStreamBatchSampler)
 from networks.net_factory import net_factory
 from utils import losses, metrics, ramps
-from val_2D import test_single_volume
+from test import test_single_volume
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--root_path', type=str,
